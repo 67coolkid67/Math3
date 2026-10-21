@@ -82,25 +82,6 @@
             font-size: 0.85rem;
         }
 
-        .continue-link {
-            display: inline-block;
-            margin-top: 12px;
-            padding: 12px 18px;
-            border-radius: 9px;
-            background: #7886ff;
-            color: #10131c;
-            font-weight: 700;
-            text-decoration: none;
-        }
-
-        .continue-link:hover {
-            background: #98a2ff;
-        }
-
-        .continue-link:focus-visible {
-            outline: 3px solid #fff;
-            outline-offset: 3px;
-        }
     </style>
 </head>
 <body>
@@ -112,8 +93,7 @@
             <input id="continue" type="checkbox">
             <span>I'm not securly</span>
         </label>
-        <p class="note">Checking the box takes you to Math3.</p>
-        <a class="continue-link" href="./self%20hosting/">Continue to Math3</a>
+        <p class="note">Check the box to continue to Math3.</p>
     </main>
     <script>
         document.getElementById("continue").addEventListener("change", (event) => {
