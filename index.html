@@ -98,6 +98,7 @@
     <script>
         document.getElementById("continue").addEventListener("change", (event) => {
             if (event.target.checked) {
+                sessionStorage.setItem("math3-transition-accepted", "true");
                 window.location.href = "./self%20hosting/";
             }
         });
